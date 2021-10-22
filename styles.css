@@ -42,6 +42,10 @@ a {
   color: #a6a6a6;
 }
 
+a:hover {
+  color: #a5c4f0;
+}
+
 .header-img {
   background-color: #ffffff;
   margin: 0;
@@ -78,16 +82,17 @@ h1 {
   top: 275px;
   left: 200px;
   width: 100%;
+  max-width: 700px;
 }
 
 .header-img button {
   position: absolute;
-  top: 345px;
+  top: 360px;
   left: 200px;
   border: none;
   background-color: #82aeec;
   border-radius: 12px;
-  padding: 10px 24px;
+  padding: 12px 25px;
   font-size: 18px;
   font-family: "Nunito", sans-serif;
   font-weight: bold;
@@ -171,6 +176,7 @@ h1 {
   font-weight: bold;
   margin: 0;
   margin-left: 400px;
+  color: #1f2a39;
 }
 
 /* CALL TO ACTION */
@@ -218,4 +224,17 @@ h1 {
   color: #dbdbe4;
   margin: 0;
   padding: 0;
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2a39;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  color: #dbdbe4;
+  padding: 25px;
 }
